@@ -1,0 +1,43 @@
+.page { display: flex; flex-direction: column; gap: 20px; }
+.loading { color: var(--muted); padding: 20px; text-align: center; }
+.tabs { display: flex; gap: 8px; }
+.tab { padding: 6px 16px; border-radius: 20px; border: 1.5px solid var(--border); background: #fff; font-size: 13px; font-weight: 500; color: var(--muted); cursor: pointer; transition: all 0.15s; }
+.tab:hover { border-color: var(--accent); color: var(--accent); }
+.activeTab { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 768px) { .grid { grid-template-columns: 1fr; } }
+
+.cardTitle { font-size: 14px; font-weight: 700; margin-bottom: 14px; color: var(--text); }
+
+.scoreCard { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.scoreBig { font-size: 56px; font-weight: 900; line-height: 1; margin-bottom: 4px; }
+.scoreLabel { font-size: 16px; font-weight: 700; margin-bottom: 16px; }
+.breakdown { display: flex; flex-direction: column; gap: 6px; font-size: 13px; width: 100%; }
+.bPos { color: var(--green); font-weight: 600; }
+.bNeu { color: var(--muted); font-weight: 600; }
+.bNeg { color: var(--red); font-weight: 600; }
+
+.emotionCard { grid-column: 1 / -1; }
+.emotionGrid { display: flex; flex-direction: column; gap: 8px; }
+.emotionItem { display: flex; align-items: center; gap: 10px; }
+.emotionBar { flex: 1; height: 10px; background: #f3f4f6; border-radius: 99px; overflow: hidden; }
+.emotionFill { height: 100%; border-radius: 99px; transition: width 0.6s ease; }
+.emotionLabel { width: 90px; font-size: 12px; color: var(--muted); text-transform: capitalize; }
+.emotionVal { width: 36px; font-size: 12px; font-weight: 700; color: var(--text); text-align: right; }
+
+.commentsCard { grid-column: 1 / -1; }
+.commentsSection { margin-bottom: 12px; }
+.commentsLabel { font-size: 12px; font-weight: 700; color: var(--muted); margin-bottom: 6px; }
+.comment { font-size: 13px; padding: 7px 10px; border-radius: 7px; margin-bottom: 4px; font-style: italic; }
+.commentPos { background: #f0fdf4; color: #15803d; border-left: 3px solid #22c55e; }
+.commentNeg { background: #fef2f2; color: #991b1b; border-left: 3px solid #ef4444; }
+
+.note { font-size: 11px; color: var(--muted); margin-top: 8px; background: #fef3c7; padding: 6px 10px; border-radius: 6px; }
+
+.trendCard { }

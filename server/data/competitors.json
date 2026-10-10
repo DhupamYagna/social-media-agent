@@ -1,0 +1,51 @@
+{
+  "competitors": [
+    {
+      "name": "BrandAlpha",
+      "industry": "Technology",
+      "platforms": {
+        "instagram": { "followers": 128000, "posts_per_week": 7, "avg_engagement_rate": 4.8, "top_content_type": "Reels", "response_time_hours": 2 },
+        "twitter":   { "followers": 95000,  "posts_per_week": 21, "avg_engagement_rate": 2.1, "top_content_type": "Threads", "response_time_hours": 1 },
+        "linkedin":  { "followers": 43000,  "posts_per_week": 4,  "avg_engagement_rate": 6.3, "top_content_type": "Articles", "response_time_hours": 12 }
+      },
+      "tone": "Professional & Innovative",
+      "top_hashtags": ["#TechInnovation", "#AIFirst", "#FutureReady"],
+      "campaign_frequency": "Monthly",
+      "strength": "Strong thought leadership content",
+      "weakness": "Low community engagement on Facebook"
+    },
+    {
+      "name": "MarketLeader",
+      "industry": "Technology",
+      "platforms": {
+        "instagram": { "followers": 312000, "posts_per_week": 14, "avg_engagement_rate": 6.2, "top_content_type": "Carousels", "response_time_hours": 4 },
+        "twitter":   { "followers": 187000, "posts_per_week": 35, "avg_engagement_rate": 3.4, "top_content_type": "Polls", "response_time_hours": 0.5 },
+        "linkedin":  { "followers": 92000,  "posts_per_week": 7,  "avg_engagement_rate": 8.1, "top_content_type": "Case Studies", "response_time_hours": 8 }
+      },
+      "tone": "Authoritative & Data-driven",
+      "top_hashtags": ["#DataDriven", "#DigitalTransformation", "#B2BSaaS"],
+      "campaign_frequency": "Weekly",
+      "strength": "Consistent high-quality carousels drive saves",
+      "weakness": "Content feels corporate — low on personality"
+    },
+    {
+      "name": "StartupRival",
+      "industry": "Technology",
+      "platforms": {
+        "instagram": { "followers": 41000,  "posts_per_week": 10, "avg_engagement_rate": 8.9, "top_content_type": "Stories + Reels", "response_time_hours": 1 },
+        "twitter":   { "followers": 28000,  "posts_per_week": 28, "avg_engagement_rate": 5.1, "top_content_type": "Memes", "response_time_hours": 0.25 },
+        "linkedin":  { "followers": 12000,  "posts_per_week": 3,  "avg_engagement_rate": 4.2, "top_content_type": "Founder Stories", "response_time_hours": 24 }
+      },
+      "tone": "Casual & Relatable",
+      "top_hashtags": ["#StartupLife", "#BuildInPublic", "#FounderStory"],
+      "campaign_frequency": "Bi-weekly",
+      "strength": "High engagement from authentic, behind-the-scenes content",
+      "weakness": "Inconsistent brand voice across platforms"
+    }
+  ],
+  "meta": {
+    "data_type": "SAMPLE DATA",
+    "description": "Simulated competitor intelligence data.",
+    "disclaimer": "Competitor data is entirely synthetic and for demonstration only. Does not represent any real brand."
+  }
+}

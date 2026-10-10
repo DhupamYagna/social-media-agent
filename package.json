@@ -1,0 +1,15 @@
+{
+  "name": "social-media-agent",
+  "version": "1.0.0",
+  "description": "Social Media Agentic AI Application powered by IBM Granite LLM",
+  "scripts": {
+    "install:server": "npm install --prefix server",
+    "install:client": "npm install --prefix client",
+    "install:all": "npm run install:server && npm run install:client",
+    "start:server": "node server/index.js",
+    "start:client": "npm run dev --prefix client",
+    "start": "npm run start:server"
+  },
+  "keywords": ["ibm-granite", "social-media", "agentic-ai"],
+  "license": "ISC"
+}

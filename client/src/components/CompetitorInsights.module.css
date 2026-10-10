@@ -1,0 +1,28 @@
+.page { display: flex; flex-direction: column; gap: 20px; }
+.loading { color: var(--muted); padding: 20px; text-align: center; }
+.tabs { display: flex; gap: 8px; }
+.tab { padding: 6px 16px; border-radius: 20px; border: 1.5px solid var(--border); background: #fff; font-size: 13px; font-weight: 500; color: var(--muted); cursor: pointer; transition: all 0.15s; }
+.tab:hover { border-color: var(--accent); color: var(--accent); }
+.activeTab { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
+.cardTitle { font-size: 14px; font-weight: 700; margin-bottom: 14px; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+
+.compCard { }
+.compHeader { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+.compName { font-size: 16px; font-weight: 800; color: var(--text); }
+.compTone { font-size: 11px; color: var(--accent); background: var(--accent-light); padding: 2px 8px; border-radius: 99px; }
+
+.compStats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px; }
+.compStat { display: flex; flex-direction: column; gap: 2px; }
+.statLabel { font-size: 10px; text-transform: uppercase; letter-spacing: 0.4px; color: var(--muted); }
+.statVal { font-size: 15px; font-weight: 700; color: var(--text); }
+
+.swGrid { display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; }
+.strength { font-size: 12px; color: var(--green); background: var(--green-light); padding: 6px 10px; border-radius: 7px; line-height: 1.4; }
+.weakness { font-size: 12px; color: #92400e; background: var(--yellow-light); padding: 6px 10px; border-radius: 7px; line-height: 1.4; }
+
+.hashtags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag { font-size: 11px; background: var(--accent-light); color: var(--accent); border-radius: 99px; padding: 2px 8px; font-weight: 600; }
+
+.note { font-size: 11px; color: var(--muted); background: #fef3c7; padding: 8px 12px; border-radius: 6px; }

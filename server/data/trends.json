@@ -1,0 +1,38 @@
+{
+  "trends": {
+    "instagram": [
+      { "hashtag": "#SustainableLiving", "topic": "Eco-friendly products", "growth": 42, "posts": 128000, "engagement_rate": 6.2 },
+      { "hashtag": "#AIProductivity", "topic": "AI tools for work", "growth": 87, "posts": 95400, "engagement_rate": 7.8 },
+      { "hashtag": "#MindfulMorning", "topic": "Morning routines & wellness", "growth": 31, "posts": 215000, "engagement_rate": 5.4 },
+      { "hashtag": "#LocalFirst", "topic": "Supporting local businesses", "growth": 22, "posts": 67300, "engagement_rate": 4.9 },
+      { "hashtag": "#TechForGood", "topic": "Technology with social impact", "growth": 55, "posts": 43200, "engagement_rate": 8.1 }
+    ],
+    "twitter": [
+      { "hashtag": "#FutureOfWork", "topic": "Remote & hybrid work trends", "growth": 63, "posts": 310000, "engagement_rate": 3.1 },
+      { "hashtag": "#GreenEnergy", "topic": "Renewable energy news", "growth": 48, "posts": 189000, "engagement_rate": 2.8 },
+      { "hashtag": "#DigitalWellness", "topic": "Screen time & mental health", "growth": 34, "posts": 97000, "engagement_rate": 3.6 },
+      { "hashtag": "#CreatorEconomy", "topic": "Content creator business tips", "growth": 71, "posts": 143000, "engagement_rate": 4.2 },
+      { "hashtag": "#B2BMarketing", "topic": "Business marketing strategies", "growth": 28, "posts": 56000, "engagement_rate": 2.5 }
+    ],
+    "linkedin": [
+      { "hashtag": "#LeadershipDevelopment", "topic": "Modern leadership skills", "growth": 39, "posts": 78000, "engagement_rate": 5.7 },
+      { "hashtag": "#AIinBusiness", "topic": "Enterprise AI adoption", "growth": 82, "posts": 112000, "engagement_rate": 6.9 },
+      { "hashtag": "#CareerGrowth", "topic": "Professional development tips", "growth": 45, "posts": 234000, "engagement_rate": 7.3 },
+      { "hashtag": "#DEIatWork", "topic": "Diversity, equity & inclusion", "growth": 26, "posts": 89000, "engagement_rate": 5.1 },
+      { "hashtag": "#StartupLife", "topic": "Startup culture & funding", "growth": 58, "posts": 167000, "engagement_rate": 6.4 }
+    ],
+    "facebook": [
+      { "hashtag": "#SmallBusiness", "topic": "SMB tips and stories", "growth": 19, "posts": 445000, "engagement_rate": 3.8 },
+      { "hashtag": "#CommunityFirst", "topic": "Community building online", "growth": 27, "posts": 198000, "engagement_rate": 4.1 },
+      { "hashtag": "#FamilyTech", "topic": "Technology for families", "growth": 15, "posts": 321000, "engagement_rate": 3.2 },
+      { "hashtag": "#ShopLocal", "topic": "Local shopping campaigns", "growth": 23, "posts": 267000, "engagement_rate": 3.9 },
+      { "hashtag": "#WellnessJourney", "topic": "Health & wellness stories", "growth": 37, "posts": 512000, "engagement_rate": 5.0 }
+    ]
+  },
+  "meta": {
+    "data_type": "SAMPLE DATA",
+    "description": "Simulated social media trend data for demonstration purposes.",
+    "last_updated": "2025-01-01",
+    "disclaimer": "This is sample/synthetic data. Not representative of real-time social media trends."
+  }
+}

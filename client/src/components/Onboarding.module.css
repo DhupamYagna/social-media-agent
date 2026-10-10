@@ -1,0 +1,148 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 500px;
+  padding: 32px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.progressDot {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.done .dot {
+  background: #1d6fce;
+  color: #fff;
+}
+
+.progressLine {
+  flex: 1;
+  height: 2px;
+  background: #e5e7eb;
+  margin: 0 4px;
+}
+
+.done .progressLine { background: #1d6fce; }
+
+.header { margin-bottom: 20px; }
+
+.logo {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1d6fce;
+  margin-bottom: 8px;
+}
+
+.stepTitle {
+  font-size: 22px;
+  font-weight: 800;
+  color: #1f2328;
+}
+
+.stepSub {
+  font-size: 13px;
+  color: #57606a;
+  margin-top: 4px;
+}
+
+.body { margin-bottom: 24px; }
+
+.field {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1f2328;
+}
+
+.field input,
+.field textarea {
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  padding: 9px 12px;
+  font-size: 14px;
+  outline: none;
+  resize: vertical;
+  transition: border-color 0.2s;
+  color: #1f2328;
+}
+
+.field input:focus,
+.field textarea:focus { border-color: #1d6fce; }
+
+.hint { font-size: 12px; color: #9ca3af; }
+
+.err { font-size: 12px; color: #dc2626; }
+
+.platformGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.platformBtn {
+  padding: 6px 14px;
+  border-radius: 99px;
+  border: 1.5px solid #d1d5db;
+  background: transparent;
+  font-size: 13px;
+  color: #57606a;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.platformBtn:hover { border-color: #1d6fce; color: #1d6fce; }
+.platformBtn.selected { background: #dbeafe; border-color: #1d6fce; color: #1d6fce; font-weight: 700; }
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.disclaimer {
+  font-size: 11px;
+  color: #9ca3af;
+  text-align: center;
+}

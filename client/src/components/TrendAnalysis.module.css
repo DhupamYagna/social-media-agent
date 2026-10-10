@@ -1,0 +1,47 @@
+.page { display: flex; flex-direction: column; gap: 20px; }
+.loading { color: var(--muted); padding: 20px; text-align: center; }
+
+.tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.tab {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  background: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.tab:hover { border-color: var(--accent); color: var(--accent); }
+.activeTab { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; }
+
+.cardTitle { font-size: 15px; font-weight: 700; margin-bottom: 14px; color: var(--text); }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.table th {
+  text-align: left;
+  padding: 8px 12px;
+  background: #f8fafc;
+  color: var(--muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  border-bottom: 1px solid var(--border);
+}
+.table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f3f4f6;
+  color: var(--text);
+}
+.table tr:hover td { background: #f8fafc; }
+
+.hashtag { color: var(--accent); font-weight: 600; }
+.growth { color: var(--green); font-weight: 700; }
+
+.note { font-size: 11px; color: var(--muted); margin-top: 12px; background: #fef3c7; padding: 8px 12px; border-radius: 6px; }
